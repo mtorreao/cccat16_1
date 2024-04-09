@@ -1,4 +1,4 @@
-import validateEmail from "../src/validators/validateEmail";
+import validateEmail from "../../../src/application/validator/validateEmail";
 
 test("Deve retornar true para um email válido", function () {
 	const email = "test@example.com";

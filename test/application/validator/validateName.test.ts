@@ -1,4 +1,4 @@
-import validateName from "../src/validators/validateName";
+import validateName from "../../../src/application/validator/validateName";
 
 test("Deve retornar true para um nome válido", function () {
 	const name = "John Doe";
